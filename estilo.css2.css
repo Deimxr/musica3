@@ -1,0 +1,103 @@
+       /*cuerpo de pagina*/
+       body {
+            font-family: Georgia;
+            background-color: #25232350;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /*edicion del titulo*/
+        header {
+            background-color: #ca370a;
+            color: rgb(15, 13, 13);
+            padding: 5px;
+            text-align: center;
+            font-size: 20px;
+            box-shadow: 1px 4px 15px 0 #000;
+            text-shadow: 2px 2px 7px #1a1919;
+            border-radius: 1em;
+        }
+       /*edicion de bordes de enlace*/
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 1px 4px 15px 0 #000;
+            text-shadow: 2px 2px 7px #39d10b;
+            border-radius: 2em;
+            
+        }
+       /*color de letras de enlaces*/
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+       /*enlaces*/
+        nav a:hover {
+            color: #a72903;
+        }
+        /*distancia de parrafo*/
+        section {
+            padding: 10px;
+        }
+
+        /*edicion de las imagenes */
+        .imagen:hover {
+            text-align:center;
+            width: 350px;
+            height: 200px;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            -ms-transition: all .2s ease-in-out;
+            -webkit-transform: scale(1.8); 
+            -moz-transform: scale(1.8);
+            -o-transform: scale(1.8);
+            transform: scale(1.8);
+            border-radius: 5em;
+        }
+    
+
+         /*edicion del parrafo*/
+        p{
+            display: inline-block;
+            font-family: double;
+            font-size: 20px;
+        }
+
+
+       /*edicion del suptitulo*/
+        h2 {
+            font-size: 30px;
+            font-family: double;
+            box-shadow: 1px 4px 15px 0 #000;
+            border-radius: 2em;
+            text-align:center;
+            background-color: #e2dbdb;
+        
+        }
+        table{
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: double;
+            box-shadow: 1px 4px 15px 0 #000;
+            border-radius: 2em;
+            text-align:center;
+            background-color: #e2dbdb;
+        
+        }
+    /*edicion del pie de pagina*/
+        footer {
+            background-color: #af1c08;
+            color: rgb(15, 15, 15);
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 2em;
+            font-weight: 900;
+        }
